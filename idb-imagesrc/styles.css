@@ -1,0 +1,337 @@
+
+/*------------------------Fonts and coloring------------------------*/
+@font-face {
+    font-family: Gotham Book;
+    src: url("fonts/GothamBook.otf") format("opentype");
+}
+@font-face {
+    font-family: Gotham Book Italic;
+    src: url("fonts/GothamBookItalic.ttf") format("opentype");
+}
+@font-face {
+    font-family: Gotham Bold;
+    src: url("fonts/GothamBold.otf") format("opentype");
+}
+@font-face {
+    font-family: Gotham Bold Italic;
+    src: url("fonts/GothamBoldItalic.ttf") format("opentype");
+}
+
+.sg-header {
+  background: #ffffff;
+}
+
+.sg-body {
+  font-family: "Gotham Book";
+}
+
+p {
+  color: #707070;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+p.sg-p-bold, .sg-p-label {
+  font-family: "Gotham Bold";
+  font-weight: 100;
+}
+
+h2 {
+  color: #004b72;
+  font-size: 40PX;
+  font-weight: 100;
+}
+
+h3 {
+  color: #ff4f00;
+  font-size: 22px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border-top: 1px solid #707070;
+}
+
+.sg-bold-span {
+  font-family: "Gotham Bold";
+}
+
+.sg-download-text {
+  font-family: "Gotham Bold";
+  display: flex;
+  align-items: center;
+}
+
+.sg-download-text:before {
+  display: flex;
+  align-items: center;
+  content:url('images/dl-logo.png');
+  width: 10px;
+  height: 10px;
+  padding-right: 20px;
+}
+
+#sg-navigation > ul > li > a {
+  color: #016382;
+  font-size: 16px;
+}
+
+#sg-navigation li li a {
+  color: #707070;
+  font-size: 12px;
+}
+
+
+
+/*Colors*/
+
+.sg-color p {
+  color: #ffffff;
+}
+
+.sg-orange {
+  background:#FE5000;
+}
+
+.sg-navy {
+  background:#004D71;
+}
+
+.sg-green {
+  background:#00B140;
+}
+
+.sg-blue {
+  background:#009CDE;
+}
+
+.sg-yellow {
+  background:#FEDB00;
+}
+
+.sg-yellow p {
+  color: #707070;
+}
+
+.sg-violet {
+  background:#C3167C;
+}
+
+.sg-download-text {
+  width: 100%;
+}
+
+/*Brand Guidelines*/
+
+#sg-typography th {
+  background: #FE5000;
+  color: #ffffff;
+}
+
+#sg-iconography table p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.sg-do-not {
+  color: #ff4f00;
+}
+
+
+.gotham-bold {
+  font-family: "Gotham Bold";
+}
+.gotham-bold-italic {
+  font-family: "Gotham Bold Italic";
+}
+.gotham-book {
+  font-family: "Gotham Book";
+}
+.gotham-book-italic {
+  font-family: "Gotham Book Italic";
+}
+.gotham-bold, .gotham-bold-italic, .gotham-book, .gotham-book-italic {
+  color: #707070;
+}
+
+
+#sg-typography tr:nth-child(2n+1) {
+  background: #f4f4f4;
+}
+
+#sg-typography a, #sg-contact a {
+  color: #707070;
+  border-bottom: 1px solid red;
+}
+
+/*------------------------Layout------------------------*/
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 20px 0px;
+}
+
+p.sg-p-label {
+  margin: 0;
+}
+
+h3 {
+  margin: 32px 0px 0px 0px;
+}
+
+hr {
+  margin: 50px 0px;
+}
+
+.sg-header img {
+    width: 238px;
+    padding: 20px 0px 20px 153px;
+}
+
+#sg-banner img {
+  max-width: 100%;
+}
+
+#sg-banner {
+  margin-bottom: 80px;
+}
+#sg-main {
+  margin: 0em 10em;
+  max-width: 1024px;
+}
+
+#sg-navigation-sticky-wrapper {
+  width: 25%;
+  float: left;
+}
+
+#sg-navigation-sticky-wrapper ul li {
+  padding-bottom: 20px;
+}
+
+#sg-navigation-sticky-wrapper ul ul {
+  padding-left: 10px;
+}
+
+#sg-navigation-sticky-wrapper ul ul li {
+  padding-bottom: 0px;
+}
+
+#sg-navigation-sticky-wrapper ul ul li:nth-child(1) {
+  margin-top: 20px;
+}
+#sg-navigation-sticky-wrapper ul ul li:nth-last-child(1) {
+  margin-bottom: 20px;
+}
+
+#sg-content {
+  width: 75%;
+  float: right;
+}
+
+/*Brand Qualities*/
+
+.sg-brand-qualities-wrap {
+  text-align: center;
+}
+
+#sg-brand-qualities img {
+  width: 60%;
+  margin-top: 20px;
+}
+
+/*Brand Guidelines*/
+
+.sg-guidelines-split img {
+  float: left;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.sg-guidelines-split p {
+  width: 40%;
+  float: left;
+  padding-left: 6%;
+}
+
+/*Colors*/
+
+.sg-color {
+  width: 23%;
+  height: 150px;
+  float: left;
+  position: relative;
+  margin-right: 2%;
+}
+
+.sg-color p {
+  margin: 0;
+  padding: 20px;
+}
+
+.sg-color p:nth-child(1) {
+  top: 0;
+  position: absolute;
+}
+
+.sg-color p:nth-child(2) {
+  bottom: 0;
+  position: absolute;
+}
+
+.sg-color-row {
+  width: 100%;
+  float: left;
+  margin: 20px 0px;
+}
+
+/*Iconography*/
+
+#sg-iconography td {
+  width: 12.5%;
+}
+
+#sg-iconography td img {
+  width: 100%;
+}
+
+/*Design Elements*/
+
+#sg-design-elements td {
+  text-align:center;
+  width: 22%;
+  padding-right: 4%;
+}
+#sg-design-elements td:nth-child(4) {
+  padding-right: 0%;
+}
+#sg-design-elements img {
+  width: 100%;
+}
+
+.sg-examples img {
+  margin: 16px 0px;
+}
+
+/*Typography*/
+
+#sg-typography table {
+  margin-bottom: 28px;
+  width: 100%;
+}
+
+#sg-typography th, #sg-typography td {
+  padding-left: 20px;
+  height: 50px;
+  text-align: left;
+}
